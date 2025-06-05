@@ -7,7 +7,7 @@ This repository provides a comprehensive pipeline for analyzing motor imagery EE
 * **Data Preprocessing**: Utilizes MNE-Python for EEG data loading, filtering, and epoching.
 * **Deep Learning Models**: Implements Convolutional Neural Networks (CNNs) for classifying motor imagery tasks.
 * **Visualization**: Provides notebooks for visualizing EEG signals and model performance.
-* **Dataset Integration**: Supports multiple publicly available EEG datasets via the MOABB framework.([github.com][1])
+* **Dataset Integration**: Supports multiple publicly available EEG datasets via the MOABB framework. 
 
 ## Installation
 
@@ -47,16 +47,16 @@ The repository contains multiple scripts and notebooks, each serving specific pu
 
 * **Data Preprocessing**:
 
-  * `nu_smrutils.py`: Contains utility functions for EEG data preprocessing using MNE-Python.([github.com][2])
+  * `nu_smrutils.py`: Contains utility functions for EEG data preprocessing using MNE-Python. 
 
 * **Model Training**:
 
   * `train_CNN_pooled.ipynb`: Jupyter Notebook for training CNN models on pooled EEG data across subjects.
-  * `train_CNN_subspe.ipynb`: Jupyter Notebook for training CNN models on subject-specific EEG data.([github.com][1], [github.com][3])
+  * `train_CNN_subspe.ipynb`: Jupyter Notebook for training CNN models on subject-specific EEG data. 
 
 * **Visualization**:
 
-  * `visualization.ipynb`: Jupyter Notebook for visualizing EEG signals and model performance metrics.([github.com][1])
+  * `visualization.ipynb`: Jupyter Notebook for visualizing EEG signals and model performance metrics. 
 
 *To execute a notebook:*
 
@@ -72,12 +72,12 @@ The repository contains multiple scripts and notebooks, each serving specific pu
 
 ## Datasets
 
-The repository integrates several publicly available EEG datasets through the [Mother of All BCI Benchmarks (MOABB)](http://moabb.neurotechx.com/docs/datasets.html) framework:([github.com][1])
+The repository integrates several publicly available EEG datasets through the [Mother of All BCI Benchmarks (MOABB)](http://moabb.neurotechx.com/docs/datasets.html) framework: 
 
 * **BNCI2014001**: EEG data from 9 subjects performing four different motor imagery tasks (left hand, right hand, feet, tongue).
 * **BNCI2014004**: EEG data from 9 subjects performing left and right hand motor imagery tasks.
 * **Weibo2014**: EEG data from 10 subjects performing simple and compound limb motor imagery tasks.
-* **PhysionetMI**: EEG data from 109 subjects performing various motor execution and imagery tasks.([github.com][1])
+* **PhysionetMI**: EEG data from 109 subjects performing various motor execution and imagery tasks. 
 
 *Note: Please refer to the MOABB website for detailed information and access to these datasets.*
 
